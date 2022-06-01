@@ -22,7 +22,7 @@ class realmd::join::password {
       'xenial'  => '',
       'bionic'  => '',
       'focal'   => '',
-      'default' => ["--computer-name=${_computer_name}"],
+      default => ["--computer-name=${_computer_name}"],
     }
   } else {
       $_computer_name_arg = ["--computer-name=${_computer_name}"]
